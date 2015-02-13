@@ -47,14 +47,16 @@
 		C8EF18B51A8E2B4E004350E8 /* usb_osx.c in Sources */ = {isa = PBXBuildFile; fileRef = C8EF18851A8E2B46004350E8 /* usb_osx.c */; };
 		C8EF18B61A8E2B4E004350E8 /* usb_vendors.c in Sources */ = {isa = PBXBuildFile; fileRef = C8EF18861A8E2B46004350E8 /* usb_vendors.c */; };
 		C8EF18B81A8E2B4E004350E8 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = C8EF18881A8E2B46004350E8 /* utils.c */; };
-		C8EF18BC1A8E2CE6004350E8 /* libcutils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18BB1A8E2CE6004350E8 /* libcutils.a */; };
-		C8EF18BE1A8E2CF4004350E8 /* libmincrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18BD1A8E2CF4004350E8 /* libmincrypt.a */; };
-		C8EF18C01A8E2D09004350E8 /* libzipfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18BF1A8E2D09004350E8 /* libzipfile.a */; };
-		C8EF18C31A8E2D16004350E8 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18C21A8E2D16004350E8 /* libcrypto.a */; };
-		C8EF18C61A8E2D28004350E8 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18C21A8E2D16004350E8 /* libcrypto.a */; };
-		C8EF18C71A8E2D2A004350E8 /* libzipfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18BF1A8E2D09004350E8 /* libzipfile.a */; };
-		C8EF18C81A8E2D2B004350E8 /* libmincrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18BD1A8E2CF4004350E8 /* libmincrypt.a */; };
-		C8EF18C91A8E2D2D004350E8 /* libcutils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18BB1A8E2CE6004350E8 /* libcutils.a */; };
+		C8EF18DF1A8E31A8004350E8 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DA1A8E31A8004350E8 /* libcrypto.a */; };
+		C8EF18E01A8E31A8004350E8 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DA1A8E31A8004350E8 /* libcrypto.a */; };
+		C8EF18E11A8E31A8004350E8 /* libcutils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DB1A8E31A8004350E8 /* libcutils.a */; };
+		C8EF18E21A8E31A8004350E8 /* libcutils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DB1A8E31A8004350E8 /* libcutils.a */; };
+		C8EF18E31A8E31A8004350E8 /* libmincrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DC1A8E31A8004350E8 /* libmincrypt.a */; };
+		C8EF18E41A8E31A8004350E8 /* libmincrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DC1A8E31A8004350E8 /* libmincrypt.a */; };
+		C8EF18E51A8E31A8004350E8 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DD1A8E31A8004350E8 /* libssl.a */; };
+		C8EF18E61A8E31A8004350E8 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DD1A8E31A8004350E8 /* libssl.a */; };
+		C8EF18E71A8E31A8004350E8 /* libzipfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DE1A8E31A8004350E8 /* libzipfile.a */; };
+		C8EF18E81A8E31A8004350E8 /* libzipfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF18DE1A8E31A8004350E8 /* libzipfile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,10 +98,11 @@
 		C8EF18871A8E2B46004350E8 /* usb_vendors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usb_vendors.h; sourceTree = "<group>"; };
 		C8EF18881A8E2B46004350E8 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
 		C8EF18891A8E2B46004350E8 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
-		C8EF18BB1A8E2CE6004350E8 /* libcutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcutils.a; path = ../libcutils/libcutils.a; sourceTree = "<group>"; };
-		C8EF18BD1A8E2CF4004350E8 /* libmincrypt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmincrypt.a; path = ../libmincrypt/libmincrypt.a; sourceTree = "<group>"; };
-		C8EF18BF1A8E2D09004350E8 /* libzipfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzipfile.a; path = ../libzipfile/libzipfile.a; sourceTree = "<group>"; };
-		C8EF18C21A8E2D16004350E8 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../openssl/libcrypto.a; sourceTree = "<group>"; };
+		C8EF18DA1A8E31A8004350E8 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		C8EF18DB1A8E31A8004350E8 /* libcutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcutils.a; sourceTree = "<group>"; };
+		C8EF18DC1A8E31A8004350E8 /* libmincrypt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmincrypt.a; sourceTree = "<group>"; };
+		C8EF18DD1A8E31A8004350E8 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		C8EF18DE1A8E31A8004350E8 /* libzipfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzipfile.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +110,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EF18C01A8E2D09004350E8 /* libzipfile.a in Frameworks */,
-				C8EF18BC1A8E2CE6004350E8 /* libcutils.a in Frameworks */,
-				C8EF18C31A8E2D16004350E8 /* libcrypto.a in Frameworks */,
-				C8EF18BE1A8E2CF4004350E8 /* libmincrypt.a in Frameworks */,
+				C8EF18E51A8E31A8004350E8 /* libssl.a in Frameworks */,
+				C8EF18E31A8E31A8004350E8 /* libmincrypt.a in Frameworks */,
+				C8EF18DF1A8E31A8004350E8 /* libcrypto.a in Frameworks */,
+				C8EF18E71A8E31A8004350E8 /* libzipfile.a in Frameworks */,
+				C8EF18E11A8E31A8004350E8 /* libcutils.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,10 +122,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EF18C61A8E2D28004350E8 /* libcrypto.a in Frameworks */,
-				C8EF18C71A8E2D2A004350E8 /* libzipfile.a in Frameworks */,
-				C8EF18C91A8E2D2D004350E8 /* libcutils.a in Frameworks */,
-				C8EF18C81A8E2D2B004350E8 /* libmincrypt.a in Frameworks */,
+				C8EF18E61A8E31A8004350E8 /* libssl.a in Frameworks */,
+				C8EF18E41A8E31A8004350E8 /* libmincrypt.a in Frameworks */,
+				C8EF18E01A8E31A8004350E8 /* libcrypto.a in Frameworks */,
+				C8EF18E81A8E31A8004350E8 /* libzipfile.a in Frameworks */,
+				C8EF18E21A8E31A8004350E8 /* libcutils.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,10 +186,11 @@
 		C8EF18BA1A8E2CC5004350E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C8EF18C21A8E2D16004350E8 /* libcrypto.a */,
-				C8EF18BF1A8E2D09004350E8 /* libzipfile.a */,
-				C8EF18BD1A8E2CF4004350E8 /* libmincrypt.a */,
-				C8EF18BB1A8E2CE6004350E8 /* libcutils.a */,
+				C8EF18DA1A8E31A8004350E8 /* libcrypto.a */,
+				C8EF18DB1A8E31A8004350E8 /* libcutils.a */,
+				C8EF18DC1A8E31A8004350E8 /* libmincrypt.a */,
+				C8EF18DD1A8E31A8004350E8 /* libssl.a */,
+				C8EF18DE1A8E31A8004350E8 /* libzipfile.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -421,6 +427,11 @@
 					/Users/olunx/Documents/workspace/libadb3/libmincrypt,
 					/Users/olunx/Documents/workspace/libadb3/libzipfile,
 					/Users/olunx/Documents/workspace/libadb3/openssl,
+					/Users/olunx/Documents/workspace/libadb/libcutils,
+					/Users/olunx/Documents/workspace/libadb/libmincrypt,
+					/Users/olunx/Documents/workspace/libadb/libzipfile,
+					/Users/olunx/Documents/workspace/libadb/openssl,
+					"$(PROJECT_DIR)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
@@ -456,6 +467,11 @@
 					/Users/olunx/Documents/workspace/libadb3/libmincrypt,
 					/Users/olunx/Documents/workspace/libadb3/libzipfile,
 					/Users/olunx/Documents/workspace/libadb3/openssl,
+					/Users/olunx/Documents/workspace/libadb/libcutils,
+					/Users/olunx/Documents/workspace/libadb/libmincrypt,
+					/Users/olunx/Documents/workspace/libadb/libzipfile,
+					/Users/olunx/Documents/workspace/libadb/openssl,
+					"$(PROJECT_DIR)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
@@ -494,6 +510,11 @@
 					/Users/olunx/Documents/workspace/libadb3/openssl,
 					/Users/olunx/Documents/workspace/libadb3/libmincrypt,
 					/Users/olunx/Documents/workspace/libadb3/libcutils,
+					/Users/olunx/Documents/workspace/libadb/openssl,
+					/Users/olunx/Documents/workspace/libadb/libzipfile,
+					/Users/olunx/Documents/workspace/libadb/libmincrypt,
+					/Users/olunx/Documents/workspace/libadb/libcutils,
+					"$(PROJECT_DIR)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
@@ -528,6 +549,11 @@
 					/Users/olunx/Documents/workspace/libadb3/openssl,
 					/Users/olunx/Documents/workspace/libadb3/libmincrypt,
 					/Users/olunx/Documents/workspace/libadb3/libcutils,
+					/Users/olunx/Documents/workspace/libadb/openssl,
+					/Users/olunx/Documents/workspace/libadb/libzipfile,
+					/Users/olunx/Documents/workspace/libadb/libmincrypt,
+					/Users/olunx/Documents/workspace/libadb/libcutils,
+					"$(PROJECT_DIR)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (

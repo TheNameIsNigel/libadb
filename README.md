@@ -14,4 +14,6 @@ Build:
 
 make
 
+./copy.sh
+
 open Xcode/libadb.xcodeproj
