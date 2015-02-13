@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5251A6BF-A39A-414F-9EEB-E2B56C273043</string>
+	<key>IDESourceControlProjectName</key>
+	<string>libadb</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>71004AD2ED12FDD44DB3B1F5D96F4DDE5564783E</key>
+		<string>https://github.com/lunzii/libadb.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Xcode/libadb.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>71004AD2ED12FDD44DB3B1F5D96F4DDE5564783E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lunzii/libadb.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>71004AD2ED12FDD44DB3B1F5D96F4DDE5564783E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71004AD2ED12FDD44DB3B1F5D96F4DDE5564783E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>libadb</string>
+		</dict>
+	</array>
+</dict>
+</plist>
