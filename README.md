@@ -11,5 +11,5 @@ Build:
 ./autogen.sh
 ./configure
 make
-./copy.sh
+./open.sh
 ```
